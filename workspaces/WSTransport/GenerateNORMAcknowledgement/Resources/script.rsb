@@ -1,0 +1,25 @@
+<arc:set attr="output.data" value=""/>
+<arc:set attr="tmp.PONumber" value=""/>
+<arc:set attr="tmp.RequiredDate" value=""/>
+<arc:set attr="tmp.Was00Record" value="False"/>
+
+<arc:set attr="file.file" value="[filePath]" />
+<arc:call op="fileReadLine" in="file" out="line">
+  <arc:if exp="[tmp.Was00Record | equals('True')]">
+    <arc:if exp="[line.file:data | startswith('01')]">
+      <arc:set attr="output.data" value="[output.data][line.file:data | substring(2, 90)]NORM[tmp.PONumber]  [tmp.RequiredDate]\n"/>
+      <arc:else>
+        <arc:set attr="output.data" value="[output.data]                                                                                          NORM[tmp.PONumber]  [tmp.RequiredDate]\n"/>
+      </arc:else>
+    </arc:if>
+    <arc:set attr="tmp.Was00Record" value="False"/>
+  </arc:if>
+  <arc:if exp="[line.file:data | startswith('00')] && [line.file:data | substring(297, 4) | equals('NORM')]">
+    <arc:set attr="output.data" value="[output.data][line.file:data | substring(0, 71)]"/>
+    <arc:set attr="tmp.PONumber" value="[line.file:data | substring(2, 11)]"/>
+    <arc:set attr="tmp.RequiredDate" value="[line.file:data | substring(23, 10)]"/>
+    <arc:set attr="tmp.Was00Record" value="True"/>
+  </arc:if>
+</arc:call> 
+<arc:set attr="output.filename" value="im205705_[_ | now('yyyyMMddHHmmss')].txt"/>
+<arc:push item="output" />

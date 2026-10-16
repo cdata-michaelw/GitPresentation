@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Header />
+	<soapenv:Body>
+		<tns:NumberToDollars xmlns:tns="http://www.dataaccess.com/webservicesserver/">
+			<tns:dNum />
+		</tns:NumberToDollars>
+	</soapenv:Body>
+</soapenv:Envelope>

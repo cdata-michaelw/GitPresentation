@@ -1,0 +1,15 @@
+<arc:set attr="data.workspaceid" value="[_input.workspaceid]" />
+<arc:set attr="data.ConnectorId" value="[_input.ConnectorId]" />
+
+<arc:set attr="data.key" value="*" />
+<arc:call op="connectordataDelete" httpmethod="POST" in="data" />
+
+<!-- traverse the file, and add all keys into the state table -->
+
+<arc:set attr="xml.uri" value="[_input.filepath]" />
+<arc:set attr="xml.xpath" value="/Items/Sheet1" />
+<arc:call op="xmlDomSearch" item="xml">
+  <arc:set attr="data.key" value="[xpath(Product_Code)]_ScheduleAfter" />
+  <arc:set attr="data.value" value="[xpath(Schedule_After_Date)]" />
+  <arc:call op="connectordataSet" httpmethod="POST" item="data" />
+</arc:call>

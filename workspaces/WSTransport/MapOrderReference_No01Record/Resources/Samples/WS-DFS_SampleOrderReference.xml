@@ -1,0 +1,358 @@
+<Items>
+	<__00 lineType="00">
+		<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+		<Purchase_Order_Date>02/01/2025</Purchase_Order_Date>
+		<Required_Date>02/01/2025</Required_Date>
+		<Customer_Title>MR</Customer_Title>
+		<Customer_Initials>G</Customer_Initials>
+		<Customer_Surname>BRITNELL</Customer_Surname>
+		<Customer_Address_Line_1>17 BASSEIN PARK ROAD</Customer_Address_Line_1>
+		<Customer_Address_Line_2></Customer_Address_Line_2>
+		<Customer_Address_Line_3>LONDON</Customer_Address_Line_3>
+		<Customer_Address_Line_4></Customer_Address_Line_4>
+		<Customer_Post_Code>W12 9RN</Customer_Post_Code>
+		<Special_Instructions_Line_1></Special_Instructions_Line_1>
+		<Special_Instructions_Line_2></Special_Instructions_Line_2>
+		<Special_Instructions_Line_3></Special_Instructions_Line_3>
+		<Purchase_Order_Status>INIT</Purchase_Order_Status>
+		<Purchase_Order_Type>SERV</Purchase_Order_Type>
+		<Delivery_Note_Number>              1</Delivery_Note_Number>
+		<Acknowledgement_No></Acknowledgement_No>
+		<Supplier_Due_Date></Supplier_Due_Date>
+		<field_20></field_20>
+		<__02 lineType="02">
+			<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+			<Branch_Description>NEW MALDEN</Branch_Description>
+			<Branch_Address_Line_1>SHANNON RETAIL PARK</Branch_Address_Line_1>
+			<Branch_Address_Line_2>BURLINGTON ROAD</Branch_Address_Line_2>
+			<Branch_Address_Line_3>NEW MALDEN</Branch_Address_Line_3>
+			<Branch_Address_Line_4>KT3 4RP</Branch_Address_Line_4>
+			<Branch_Address_Line_5>0333 9999777</Branch_Address_Line_5>
+			<Branch_Fax_Number>020 89497059</Branch_Fax_Number>
+			<Telex_Number>New Malden</Telex_Number>
+			<Branch_Number></Branch_Number>
+			<field_11></field_11>
+			<__03 lineType="03">
+				<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+				<Branch_Description>BRENTFORD</Branch_Description>
+				<Branch_Address_Line_1>971 GREAT WEST ROAD</Branch_Address_Line_1>
+				<Branch_Address_Line_2>BRENTFORD</Branch_Address_Line_2>
+				<Branch_Address_Line_3>LONDON</Branch_Address_Line_3>
+				<Branch_Address_Line_4>TW8 9DN</Branch_Address_Line_4>
+				<Branch_Telephone_Number>0333 9999777</Branch_Telephone_Number>
+				<Branch_Fax_Number>0208 5684907</Branch_Fax_Number>
+				<Branch_Telex_Number>Brentford</Branch_Telex_Number>
+				<Branch_Number></Branch_Number>
+				<field_11></field_11>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description>PLEASE SUPPLY ASAP BOTH LEFT</Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description> AND RIGHT HAND FACING SWITC</Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description>HES FOR THE TREK 2 CORNER 2</Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description>PLEASE ENSURE THESE ARE THE</Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description>SQUARE STYLE SWITCHES NEW ST</Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description>YLE- AS WRONG OLD STYLE SENT</Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description> IN ERROR ORDER NUMBER 36D1N</Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description>1866 MANY THANK ELLA CST</Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description></Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description>ORIGINAL ORDER DETAILS</Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description>P/O-D136N186601</Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description>KLX1ZKTLO</Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description>STORM</Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+				<__04 lineType="04">
+					<Purchase_Order_Number>8436N186608</Purchase_Order_Number>
+					<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+					<Stock_Code>M</Stock_Code>
+					<Quantity_Required>000000000000001.00</Quantity_Required>
+					<Stock_Description></Stock_Description>
+					<Colour_Description></Colour_Description>
+					<Supplier_Reference_Number></Supplier_Reference_Number>
+					<Line_Status>INIT</Line_Status>
+					<Manufacturers_Colour_Code></Manufacturers_Colour_Code>
+					<Product_Characteristics_Line_1></Product_Characteristics_Line_1>
+					<Product_Characteristics_Line_2></Product_Characteristics_Line_2>
+					<Product_Characteristics_Line_3></Product_Characteristics_Line_3>
+					<Product_Characteristics_Line_4></Product_Characteristics_Line_4>
+					<Product_Characteristics_Line_5></Product_Characteristics_Line_5>
+					<Product_Characteristics_Line_6></Product_Characteristics_Line_6>
+					<Supplier_Mode_Code></Supplier_Mode_Code>
+					<Supplier_Configuration></Supplier_Configuration>
+					<Supplier_Colour_1></Supplier_Colour_1>
+					<Supplier_Colour_2></Supplier_Colour_2>
+					<field_20></field_20>
+				</__04>
+			</__03>
+		</__02>
+	</__00>
+</Items>

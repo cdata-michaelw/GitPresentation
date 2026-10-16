@@ -1,0 +1,73 @@
+<config mode="multi" file_type="position" position="1">
+  <control value="00">
+    <field name="Purchase_Order_Number" length="11">2</field>
+    <field name="Purchase_Order_Date" length="10">13</field>
+    <field name="Required_Date" length="10">23</field>
+    <field name="Customer_Title" length="4">33</field>
+    <field name="Customer_Initials" length="6">37</field>
+    <field name="Customer_Surname" length="28">43</field>
+    <field name="Customer_Address_Line_1" length="30">71</field>
+    <field name="Customer_Address_Line_2" length="30">101</field>
+    <field name="Customer_Address_Line_3" length="30">131</field>
+    <field name="Customer_Address_Line_4" length="30">161</field>
+    <field name="Customer_Post_Code" length="12">191</field>
+    <field name="Special_Instructions_Line_1" length="30">203</field>
+    <field name="Special_Instructions_Line_2" length="30">233</field>
+    <field name="Special_Instructions_Line_3" length="30">263</field>
+    <field name="Purchase_Order_Status" length="4">293</field>
+    <field name="Purchase_Order_Type" length="4">297</field>
+    <field name="Delivery_Note_Number" length="15">301</field>
+    <field name="Acknowledgement_No" length="12">316</field>
+    <field name="Supplier_Due_Date" length="10">328</field>
+  </control>
+  <control value="01">
+    <field name="Special_Instructions_As_Shown_In_Description_Column" length="30">2</field>
+    <field name="Special_Instructions_As_Shown_In_Description_Column2" length="30">32</field>
+    <field name="Special_Instructions_As_Shown_In_Description_Column3" length="30">62</field>
+  </control>
+  <control value="02">
+    <field name="Purchase_Order_Number" length="11">2</field>
+    <field name="Branch_Description" length="25">13</field>
+    <field name="Branch_Address_Line_1" length="30">38</field>
+    <field name="Branch_Address_Line_2" length="30">68</field>
+    <field name="Branch_Address_Line_3" length="30">98</field>
+    <field name="Branch_Address_Line_4" length="30">128</field>
+    <field name="Branch_Address_Line_5" length="12">158</field>
+    <field name="Branch_Fax_Number" length="12">170</field>
+    <field name="Telex_Number" length="12">182</field>
+    <field name="Branch_Number" length="2">194</field>
+  </control>
+  <control value="03">
+    <field name="Purchase_Order_Number" length="11">2</field>
+    <field name="Branch_Description" length="25">13</field>
+    <field name="Branch_Address_Line_1" length="30">38</field>
+    <field name="Branch_Address_Line_2" length="30">68</field>
+    <field name="Branch_Address_Line_3" length="30">98</field>
+    <field name="Branch_Address_Line_4" length="30">128</field>
+    <field name="Branch_Telephone_Number" length="12">158</field>
+    <field name="Branch_Fax_Number" length="12">170</field>
+    <field name="Branch_Telex_Number" length="12">182</field>
+    <field name="Branch_Number" length="2">194</field>
+  </control>
+  <control value="04">
+    <field name="Purchase_Order_Number" length="11">2</field>
+    <field name="Purchase_Order_Line_Number" length="2">13</field>
+    <field name="Stock_Code" length="12">15</field>
+    <field name="Quantity_Required" length="18">27</field>
+    <field name="Stock_Description" length="30">45</field>
+    <field name="Colour_Description" length="30">75</field>
+    <field name="Supplier_Reference_Number" length="20">105</field>
+    <field name="Line_Status" length="4">125</field>
+    <field name="Manufacturers_Colour_Code" length="3">129</field>
+    <field name="Product_Characteristics_Line_1" length="30">132</field>
+    <field name="Product_Characteristics_Line_2" length="30">162</field>
+    <field name="Product_Characteristics_Line_3" length="30">192</field>
+    <field name="Product_Characteristics_Line_4" length="30">222</field>
+    <field name="Product_Characteristics_Line_5" length="30">252</field>
+    <field name="Product_Characteristics_Line_6" length="30">282</field>
+    <field name="Supplier_Mode_Code" length="18">312</field>
+    <field name="Supplier_Configuration" length="10">330</field>
+    <field name="Supplier_Colour_1" length="18">340</field>
+    <field name="Supplier_Colour_2" length="18">358</field>
+  </control>
+</config>

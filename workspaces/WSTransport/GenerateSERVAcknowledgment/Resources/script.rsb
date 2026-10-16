@@ -1,0 +1,24 @@
+<arc:set attr="output.data" value=""/>
+<arc:set attr="tmp.SERVRecord" value="False"/>
+
+<arc:set attr="file.file" value="[filePath]" />
+<arc:call op="fileReadLine" in="file" out="line">
+  <arc:if exp="[line.file:data | startswith('00')] && [line.file:data | substring(297, 4) | equals('SERV')]">
+    <arc:set attr="output.data" value="[output.data][line.file:data]\n"/>
+    <arc:set attr="tmp.SERVRecord" value="True"/>
+    <arc:else>
+      <arc:if exp="[tmp.SERVRecord | equals('True')]">
+        <arc:if exp="[line.file:data | startswith('00')]">
+          <arc:set attr="tmp.SERVRecord" value="False"/>
+          <arc:else>
+            <arc:set attr="output.data" value="[output.data][line.file:data]\n"/>
+          </arc:else>
+        </arc:if>
+      </arc:if>
+    </arc:else>
+  </arc:if>
+</arc:call>
+<arc:if exp="[output.data | notEquals('')]">
+  <arc:set attr="output.filename" value="SERVICE_[Filename].txt"/>
+  <arc:push item="output" />
+</arc:if>

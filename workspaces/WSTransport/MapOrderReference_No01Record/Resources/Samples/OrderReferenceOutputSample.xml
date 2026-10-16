@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items xmlns:flatfile="http://arc.cdata.com/ns/flatfileconnector">
+	<Order>
+		<order_reference>D1WE6069101</order_reference>
+		<warehouse_code>WHD</warehouse_code>
+		<account_code>whs</account_code>
+		<supplier_code></supplier_code>
+		<carrier_code></carrier_code>
+		<customer_code>WS WHOLESALE - DFS</customer_code>
+		<expected_date_of_dispatch>13/01/2025</expected_date_of_dispatch>
+		<address1>MR P ARMITAGE</address1>
+		<address2>GREENACRES  YORK ROAD</address2>
+		<address3>ESCRICK</address3>
+		<address4>YORK</address4>
+		<address5>NORTH YORKSHIRE</address5>
+		<postcode>YO19 6EY</postcode>
+		<notes>can take sooner                                                                           </notes>
+		<load_reference></load_reference>
+		<pick_reference></pick_reference>
+		<line_number>1</line_number>
+		<product_code>TKX1ZKTXR002</product_code>
+		<quantity>1</quantity>
+		<recipient_phone_number>7885493100</recipient_phone_number>
+		<recipient_email>phil148.armitage@gmail.com</recipient_email>
+		<blank></blank>
+		<recipient_name></recipient_name>
+		<sales_order_string1></sales_order_string1>
+		<sales_order_string2></sales_order_string2>
+		<sales_order_string3></sales_order_string3>
+		<sales_order_string4></sales_order_string4>
+		<sales_order_string5></sales_order_string5>
+		<sales_order_integer1></sales_order_integer1>
+		<sales_order_integer2></sales_order_integer2>
+		<sales_order_integer3></sales_order_integer3>
+		<sales_order_integer4></sales_order_integer4>
+		<sales_order_integer5></sales_order_integer5>
+		<sales_order_datetime1></sales_order_datetime1>
+		<sales_order_datetime2>25/12/2024 00:00</sales_order_datetime2>
+		<sales_order_datetime3></sales_order_datetime3>
+		<sales_order_datetime4></sales_order_datetime4>
+		<sales_order_datetime5></sales_order_datetime5>
+		<sales_order_boolean1></sales_order_boolean1>
+		<sales_order_boolean2></sales_order_boolean2>
+		<sales_order_boolean3></sales_order_boolean3>
+		<sales_order_boolean4></sales_order_boolean4>
+		<sales_order_boolean5></sales_order_boolean5>
+	</Order>
+	<Order>
+		<order_reference>D1WE6069101</order_reference>
+		<warehouse_code>WHD</warehouse_code>
+		<account_code>whs</account_code>
+		<supplier_code></supplier_code>
+		<carrier_code></carrier_code>
+		<customer_code>WS WHOLESALE - DFS</customer_code>
+		<expected_date_of_dispatch>13/01/2025</expected_date_of_dispatch>
+		<address1>MR P ARMITAGE</address1>
+		<address2>GREENACRES  YORK ROAD</address2>
+		<address3>ESCRICK</address3>
+		<address4>YORK</address4>
+		<address5>NORTH YORKSHIRE</address5>
+		<postcode>YO19 6EY</postcode>
+		<notes>can take sooner                                                                           </notes>
+		<load_reference></load_reference>
+		<pick_reference></pick_reference>
+		<line_number>2</line_number>
+		<product_code>TKX1ZKTXRGLI</product_code>
+		<quantity>1</quantity>
+		<recipient_phone_number>7885493100</recipient_phone_number>
+		<recipient_email>phil148.armitage@gmail.com</recipient_email>
+		<blank></blank>
+		<recipient_name></recipient_name>
+		<sales_order_string1></sales_order_string1>
+		<sales_order_string2></sales_order_string2>
+		<sales_order_string3></sales_order_string3>
+		<sales_order_string4></sales_order_string4>
+		<sales_order_string5></sales_order_string5>
+		<sales_order_integer1></sales_order_integer1>
+		<sales_order_integer2></sales_order_integer2>
+		<sales_order_integer3></sales_order_integer3>
+		<sales_order_integer4></sales_order_integer4>
+		<sales_order_integer5></sales_order_integer5>
+		<sales_order_datetime1></sales_order_datetime1>
+		<sales_order_datetime2>25/12/2024 00:00</sales_order_datetime2>
+		<sales_order_datetime3></sales_order_datetime3>
+		<sales_order_datetime4></sales_order_datetime4>
+		<sales_order_datetime5></sales_order_datetime5>
+		<sales_order_boolean1></sales_order_boolean1>
+		<sales_order_boolean2></sales_order_boolean2>
+		<sales_order_boolean3></sales_order_boolean3>
+		<sales_order_boolean4></sales_order_boolean4>
+		<sales_order_boolean5></sales_order_boolean5>
+	</Order>
+</Items>

@@ -1,0 +1,17 @@
+<!--
+NOTE: The following attributes can be included in the table XML:
+selectQuery="SELECT * FROM XXX" - This can be used to specify a custom query to execute for this mapping.
+skipProcessedRows="true" - When true, the application will only process rows one time.
+-->
+
+<Items>
+    <app_logs table="`dbo`.`app_logs`">
+        <type />
+        <id type="integer" key="true" />
+        <instanceid />
+        <message />
+        <pattern_id type="bigint" />
+        <script />
+        <timestamp type="datetime" />
+    </app_logs>
+</Items>

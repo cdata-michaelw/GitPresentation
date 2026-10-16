@@ -1,0 +1,1 @@
+<arc:set attr="_response.redirect" value="http[_request.server:HTTPS | toupper | equals('OFF', '', 's')]://[_request.server:HTTP_HOST][_request.other:applicationpath | endswith('/','[_request.other:applicationpath]','[_request.other:applicationpath]/')]api.rst?connectorid=[_meta.arc:connectorid | replace(':', '/') | urlencode]"/>

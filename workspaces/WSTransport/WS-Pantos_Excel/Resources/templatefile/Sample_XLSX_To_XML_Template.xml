@@ -1,0 +1,214 @@
+<!-- NOTE: Do not edit arc:info -->
+<arc:info title="Translate Script" desc="Translate EDI file.">
+  <input name="PortId"        desc="The id of the port that is translating file." />
+  <input name="MessageId"     desc="The id of the translation." />
+  <input name="FilePath"      desc="The path of the data file." />
+</arc:info>
+
+<!-- Read Excel -->
+<arc:set attr="xml.file" value="[FilePath]" />
+<arc:set attr="xml.sheet" value="Sheet1" />
+<arc:set attr="xml.version" value="2007" />
+
+<arc:setm item="xml">
+  map:PONumber = "C5"
+  map:PODate = "C6"
+  map:DeliveryDate = "C7"
+  map:ShipDate = "C8"
+  map:BillerName = "I11"
+  map:ShipperName = "C11"
+  map:ShipperAddressLine1 = "C12"
+  map:ShipperCity = "C13"
+  map:ShipperState = "C14"
+  map:ShipperZip = "C15"
+  map:LineUPC = "B19:B*"
+  map:LineQty = "C19:C*"
+  map:LineUnit = "D19:D*"
+  map:LinePrice = "E19:E*"
+  map:LineDesc = "F19:F*"
+  map:LineAllowanceRate = "I19:I*"
+  map:LineAllowanceType = "J19:J*"
+</arc:setm>
+
+<arc:call op="excelGet" in="xml" out="out1">
+  <arc:map from="out1" to="data" map="*=*" />
+</arc:call>
+
+<TransactionSet>
+  <TX-00401-850 type="TransactionSet">
+    <Meta>
+      <!--Transaction Set Identifier Code-->
+      <ST01>850</ST01>
+      <!--Transaction Set Control Number-->
+      <ST02>0001</ST02>
+    </Meta>
+    <BEG type="Segment">
+      <BEG01>00</BEG01>
+      <BEG02>DS</BEG02>
+      <BEG03>[data.PONumber]</BEG03>
+      <BEG04 />
+      <BEG05>[data.PODate | todate('yyyyMMdd')]</BEG05>
+    </BEG>
+    <REF type="Segment">
+      <!--Reference Identification Qualifier-->
+      <REF01>SB</REF01>
+      <!--Reference Identification-->
+      <REF02>ZZ11</REF02>
+    </REF>
+    <REF type="Segment">
+      <!--Reference Identification Qualifier-->
+      <REF01>6P<!--Group Number--></REF01>
+      <!--Reference Identification-->
+      <REF02>ZZ</REF02>
+    </REF>
+    <REF type="Segment">
+      <!--Reference Identification Qualifier-->
+      <REF01>8M</REF01>
+      <!--Reference Identification-->
+      <REF02>0056</REF02>
+    </REF>
+    <REF type="Segment">
+      <!--Reference Identification Qualifier-->
+      <REF01>CR</REF01>
+      <!--Reference Identification-->
+      <REF02>1070335099</REF02>
+    </REF>
+    <REF type="Segment">
+      <!--Reference Identification Qualifier-->
+      <REF01>CO</REF01>
+      <!--Reference Identification-->
+      <REF02>7109790082</REF02>
+    </REF>
+    <PER type="Segment">
+      <!--Contact Function Code-->
+      <PER01>CN</PER01>
+      <!--Name-->
+      <PER02>name</PER02>
+      <!--Communication Number Qualifier-->
+      <PER03>TE<!--Telephone--></PER03>
+      <!--Communication Number-->
+      <PER04>Number</PER04>
+    </PER>
+    <CSH type="Segment">
+      <CSH01>BK</CSH01>
+    </CSH>
+    <DTM>
+      <!--Data/Time Qualifier-->
+      <DTM01>002</DTM01>
+      <!--Date-->
+      <DTM02>20151030</DTM02>
+    </DTM>
+    <DTM>
+      <!--Data/Time Qualifier-->
+      <DTM01>010</DTM01>
+      <!--Date-->
+      <DTM02>20151020</DTM02>
+    </DTM>
+    <TD5>
+      <TD501>Z</TD501>
+      <TD502>2</TD502>
+      <TD503>Code</TD503>
+    </TD5>
+    <N9Loop1 type="Loop">
+      <N9 type="Segment">
+        <N901>PD</N901>
+        <N902>ZCOF</N902>
+      </N9>
+      <MSG type="Segment">
+        <MSG01>Thanks!</MSG01>
+      </MSG>
+    </N9Loop1>
+    <N1Loop1 type="Loop">
+      <N1 type="Segment">
+        <!--Entity Identifier Code-->
+        <N101>BY<!--Buying Party (Purchaser)--></N101>
+        <!--Name-->
+        <N102>[data.BillerName]</N102>
+        <!--Identification Code Qualifier-->
+        <N103>92<!--Assigned by Buyer or Buyer's Agent--></N103>
+        <!--Identification Code-->
+        <N104>5601</N104>
+      </N1>
+    </N1Loop1>
+    <N1Loop1 type="Loop">
+      <N1 type="Segment">
+        <!--Entity Identifier Code-->
+        <N101>EN</N101>
+        <!--Name-->
+        <N102>Name</N102>
+      </N1>
+    </N1Loop1>
+    <N1Loop1 type="Loop">
+      <N1 type="Segment">
+        <!--Entity Identifier Code-->
+        <N101>ST</N101>
+        <!--Name-->
+        <N102>[data.ShipperName]</N102>
+        <!--Identification Code Qualifier-->
+        <N103>92<!--Assigned by Buyer or Buyer's Agent--></N103>
+        <!--Identification Code-->
+        <N104>0000505462</N104>
+      </N1>
+      <N2 type="Segment">
+        <N201>additional name</N201>
+        <N202 />
+      </N2>
+      <N3 type="Segment">
+        <!--Address Information-->
+        <N301>[data.ShipperAddressLine1]</N301>
+        <!--Address Information-->
+        <N302>[data.ShipperAddressLine1 | def]</N302>
+      </N3>
+      <N4 type="Segment">
+        <!--City Name-->
+        <N401>[data.ShipperCity]</N401>
+        <!--State or Provice Code-->
+        <N402>[data.ShipperState]</N402>
+        <!--Postal Code-->
+        <N403>[data.ShipperZip]</N403>
+        <!--Country Code-->
+        <N404>US</N404>
+        <!--Location Qualifier-->
+        <N405>SP</N405>
+        <!--Location Identifier-->
+        <N406>020</N406>
+      </N4>
+    </N1Loop1>
+    <arc:enum attr="data.LineUPC">
+      <arc:set attr="tmp.tmp" value="[data.LineUPC#[_index] | def('')]" />
+      <arc:equals attr="tmp.tmp" value="">
+        <arc:break/>
+      </arc:equals>
+      <PO1Loop1 type="Loop">
+        <PO1 type="Segment">
+          <PO101>[_index]</PO101>
+          <PO102>[data.LineQty#[_index] | def]</PO102>
+          <PO103>[data.LineUnit#[_index] | def]</PO103>
+          <PO104>[data.LinePrice#[_index] | def]</PO104>
+          <PO105 />
+          <PO106>BP</PO106>
+          <PO107>337S3744</PO107>
+          <PO108/>
+          <PO109/>
+          <PO110>UP</PO110>
+          <PO111>[data.LineUPC#[_index] | def]</PO111>
+        </PO1>
+        <CTP type="Segment">
+          <!--Class of Trade Code-->
+          <CTP01>[data.LineAllowanceType#[_index] | def]</CTP01>
+          <!--Price Identifier Code-->
+          <CTP02>RES</CTP02>
+          <!--Unit Price-->
+          <CTP03>[data.LineAllowanceRate#[_index] | def]</CTP03>
+        </CTP>
+        <PIDLoop1 type="Loop">
+          <PID type="Segment">
+            <PID01>F</PID01>
+            <PID02>08</PID02>
+            <PID05>[data.LineDesc#[_index] | def]</PID05>
+          </PID>
+        </PIDLoop1>
+      </PO1Loop1>
+    </arc:enum>
+  </TX-00401-850>
+</TransactionSet>

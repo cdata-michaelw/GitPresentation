@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Delivery>
+    <Tender_Sent>YES</Tender_Sent>
+    <Load_No>1</Load_No>
+    <Picker__1_>KRIS</Picker__1_>
+    <Load_ID>14164127</Load_ID>
+    <Collection_Date_Time>30/09/2025 04:00</Collection_Date_Time>
+    <Trailer_No.>T2113</Trailer_No.>
+    <Loading_Dock>4</Loading_Dock>
+    <Bay_No>BAY 5</Bay_No>
+    <Haulier>WS</Haulier>
+    <Additional_Information>110 PCS DOWNDATED - 252 SHIPPED</Additional_Information>
+    <Customer>RICHER SOUNDS</Customer>
+    <Street>R1 STAINBURN ROADOPENSHAW</Street>
+    <Destination>MANCHESTER</Destination>
+    <Post_Code>M11 2DN</Post_Code>
+    <Delivery_Date_Time>30/09/2025 06:00</Delivery_Date_Time>
+    <Booking_Ref.>BS2609LG1-RCS</Booking_Ref.>
+    <CBM>59.006</CBM>
+    <Planned_Pallets>40</Planned_Pallets>
+    <Unit_Qty>362</Unit_Qty>
+    <Total_Weight>7421</Total_Weight>
+    <Vehicle_Type>44</Vehicle_Type>
+    <Vehicle_In_Time_At_WH>03:21</Vehicle_In_Time_At_WH>
+    <Vehicle_Out_Time_At_WH>03:41</Vehicle_Out_Time_At_WH>
+    <Vehicle_In_Time_At_Customer></Vehicle_In_Time_At_Customer>
+    <Vehicle_Out_Time_At_Customer></Vehicle_Out_Time_At_Customer>
+    <field_25></field_25>
+    <field_26></field_26>
+    <field_27></field_27>
+    <field_28></field_28>
+    <field_29></field_29>
+    <field_30></field_30>
+    <field_31></field_31>
+    <field_32></field_32>
+    <field_33></field_33>
+    <field_34></field_34>
+    <field_35></field_35>
+    <field_36></field_36>
+    <field_37></field_37>
+    <field_38></field_38>
+    <field_39></field_39>
+    <field_40></field_40>
+    <field_41></field_41>
+    <field_42></field_42>
+    <field_43></field_43>
+    <field_44></field_44>
+    <field_45></field_45>
+    <field_46></field_46>
+  </Delivery>
+</Items>

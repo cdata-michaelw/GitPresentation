@@ -1,0 +1,430 @@
+<Items>
+	<__00 lineType="00">
+		<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+		<Purchase_Order_Date>20/12/2024</Purchase_Order_Date>
+		<Required_Date>20/12/2024</Required_Date>
+		<Customer_Title />
+		<Customer_Initials />
+		<Customer_Surname />
+		<Customer_Address_Line_1 />
+		<Customer_Address_Line_2 />
+		<Customer_Address_Line_3 />
+		<Customer_Address_Line_4 />
+		<Customer_Post_Code />
+		<Special_Instructions_Line_1 />
+		<Special_Instructions_Line_2 />
+		<Special_Instructions_Line_3 />
+		<Purchase_Order_Status>CANC</Purchase_Order_Status>
+		<Purchase_Order_Type>SERV</Purchase_Order_Type>
+		<Delivery_Note_Number>              1</Delivery_Note_Number>
+		<Acknowledgement_No />
+		<Supplier_Due_Date />
+		<field_20 />
+		<__01 lineType="01">
+			<Special_Instructions_As_Shown_In_Description_Column />
+			<Special_Instructions_As_Shown_In_Description_Column2>do not deliver before 30/11/24</Special_Instructions_As_Shown_In_Description_Column2>
+			<Special_Instructions_As_Shown_In_Description_Column3 />
+			<field_4 />
+			<__02 lineType="02">
+				<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+				<Branch_Description>UK TRANS CREATION HITACH</Branch_Description>
+				<Branch_Address_Line_1>REDHOUSE</Branch_Address_Line_1>
+				<Branch_Address_Line_2>ADWICK LE STREET</Branch_Address_Line_2>
+				<Branch_Address_Line_3>DONCASTER</Branch_Address_Line_3>
+				<Branch_Address_Line_4>DN6 7NA</Branch_Address_Line_4>
+				<Branch_Address_Line_5>0333 9999777</Branch_Address_Line_5>
+				<Branch_Fax_Number>01302 573466</Branch_Fax_Number>
+				<Telex_Number>TRAN UK CR H</Telex_Number>
+				<Branch_Number />
+				<field_11 />
+				<__03 lineType="03">
+					<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+					<Branch_Description>MR S PATRICK</Branch_Description>
+					<Branch_Address_Line_1>FLAT 23 PAKENHAM HOUSE WELLING</Branch_Address_Line_1>
+					<Branch_Address_Line_2>, LONDON</Branch_Address_Line_2>
+					<Branch_Address_Line_3>, E2 7BA</Branch_Address_Line_3>
+					<Branch_Address_Line_4>SIMONPATRICK@BTINTERNET.COM</Branch_Address_Line_4>
+					<Branch_Telephone_Number>07815070615</Branch_Telephone_Number>
+					<Branch_Fax_Number>07815070615</Branch_Fax_Number>
+					<Branch_Telex_Number />
+					<Branch_Number />
+					<field_11 />
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description>PLEASE SUPPLY CHARGEABLE TO</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>CANC</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description>DFS 1 X MECHANISM FOR EVANDE</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>CANC</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description>R FM PWR REC CHAIR - ORG ORD</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>CANC</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description>ER T6ZUBN8V0 ACK ZUT6BN8V001</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>CANC</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description> - AUTH CAS P30574 NATCST</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>CANC</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description />
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>CANC</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description>ORIGINAL ORDER DETAILS</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>CANC</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description>P/O-ZUT6BN8V001</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>CANC</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description>No Supplier</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>CANC</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description>.</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>CANC</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description />
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>CANC</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description />
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>INIT</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description>ORIGINAL ORDER DETAILS</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>INIT</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description>P/O-ZUT6BN8V001</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>INIT</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description>No Supplier</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>INIT</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description>.</Stock_Description>
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>INIT</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+					<__04 lineType="04">
+						<Purchase_Order_Number>52T6BN8V002</Purchase_Order_Number>
+						<Purchase_Order_Line_Number>00</Purchase_Order_Line_Number>
+						<Stock_Code>M</Stock_Code>
+						<Quantity_Required>000000000000001.00</Quantity_Required>
+						<Stock_Description />
+						<Colour_Description />
+						<Supplier_Reference_Number />
+						<Line_Status>INIT</Line_Status>
+						<Manufacturers_Colour_Code />
+						<Product_Characteristics_Line_1 />
+						<Product_Characteristics_Line_2 />
+						<Product_Characteristics_Line_3 />
+						<Product_Characteristics_Line_4 />
+						<Product_Characteristics_Line_5 />
+						<Product_Characteristics_Line_6 />
+						<Supplier_Mode_Code />
+						<Supplier_Configuration />
+						<Supplier_Colour_1 />
+						<Supplier_Colour_2 />
+						<field_20 />
+					</__04>
+				</__03>
+			</__02>
+		</__01>
+	</__00>
+</Items>

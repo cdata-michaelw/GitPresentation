@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TestTable>
+		<LastName xsi:nil="true"/>
+		<Other>12345&amp;&gt;&lt;</Other>
+		<Pm1 xsi:nil="true"/>
+		<Pm2 xsi:nil="true"/>
+		<TransactionID xsi:nil="true"/>
+	</TestTable>
+</Items>

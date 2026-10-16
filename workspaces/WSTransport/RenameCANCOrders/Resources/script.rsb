@@ -1,0 +1,3 @@
+<arc:set attr="output.filepath" value="[filepath]"/>
+<arc:set attr="output.filename" value="CANCEL_[filename]"/>
+<arc:push item="output"/>

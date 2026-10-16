@@ -1,0 +1,1 @@
+{"left":{"xpath": "/Items/__00/__01/Special_Instructions_As_Shown_In_Description_Column","id":"allmatchingxpath"},"rules":[{"condition":{ "operator": "!", "params": [{ "operator": "isnull", "params": [{"ref":"allmatchingxpath"}]}]},"value":"is%20not%20null&&1"}],"else":"Fallback to"}

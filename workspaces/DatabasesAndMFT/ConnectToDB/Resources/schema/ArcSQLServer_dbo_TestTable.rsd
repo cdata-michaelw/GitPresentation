@@ -1,0 +1,25 @@
+<arc:script xmlns:arc="http://arc.cdata.com/ns/arcscript/2">
+
+  <arc:info title="[ArcSQLServer].[dbo].[TestTable]" connection="Connection" restrictUser="*" description="Create, Update, Query, and Delete [ArcSQLServer].[dbo].[TestTable]">
+  	<!-- Column definitions -->
+    <attr name="LastName" key="false" type="string" columnsize="10" isNullable="true" readonly="false" desc="" />
+    <attr name="New" key="false" type="string" columnsize="10" isNullable="true" readonly="false" desc="" />
+    <attr name="Other" key="false" type="string" columnsize="50" isNullable="true" readonly="false" desc="" />
+    <attr name="TransactionID" key="false" type="int" columnsize="10" isNullable="true" readonly="false" desc="" />
+  </arc:info>
+
+	<!-- Operation definitions -->
+  <arc:script method="GET">
+    <arc:push op="apiSelect" />
+  </arc:script>
+  <arc:script method="POST">
+    <arc:push op="apiInsert" />
+  </arc:script>
+  <arc:script method="PUT,MERGE,PATCH">
+    <arc:push op="apiUpdate" />
+  </arc:script>
+  <arc:script method="DELETE">
+    <arc:push op="apiDelete" />
+  </arc:script>
+
+</arc:script>

@@ -1,0 +1,7 @@
+<Items>
+    <OutOfStock table="`OutOfStock`" action="upsert">
+        <ProductCode key="true" />
+        <Product />
+        <ScheduleAfterDate type="date" />
+    </OutOfStock>
+</Items>

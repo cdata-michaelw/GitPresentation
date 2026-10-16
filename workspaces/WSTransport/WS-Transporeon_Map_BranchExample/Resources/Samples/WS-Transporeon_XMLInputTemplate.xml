@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tisys>
+   <tour id="903164949">
+      <timestamp>2025-12-21 11:58:15</timestamp>
+      <document_reference>118b6023-1498-9936-e8a5-760dfecd9c35</document_reference>
+      <changed>0</changed>
+      <number>540IWT/FROM501/SH002-20251221</number>
+      <external_transport_number/>
+      <transport_group_id/>
+      <attachments/>
+      <tpw_link>https://login.transporeon.com/?jumpToTransport=true&amp;transportId=903164949</tpw_link>
+      <status>N</status>
+      <qualifier>tour.accepted</qualifier>
+      <shadow_nto>0</shadow_nto>
+      <partial_accept>0</partial_accept>
+      <company_id>298256</company_id>
+      <company_name>TESCO UK</company_name>
+      <company_address>Kestrel Way</company_address>
+      <company_zip_address>AL7 1GA</company_zip_address>
+      <company_city>Welwyn Garden City</company_city>
+      <company_region/>
+      <company_country_id>GB</company_country_id>
+      <disponent_firstname>Oscar</disponent_firstname>
+      <disponent_lastname>Harding</disponent_lastname>
+      <disponent_phone/>
+      <disponent_id>668423</disponent_id>
+      <carrier_disponent_name/>
+      <carrier_disponent_id>0</carrier_disponent_id>
+      <vehicle_id>Single-decker</vehicle_id>
+      <vehicle_name>Single-decker</vehicle_name>
+      <start_date>2000-01-01</start_date>
+      <start_time>00:00:00</start_time>
+      <end_date>2025-12-23</end_date>
+      <end_time>00:00:00</end_time>
+      <owner>Grocery</owner>
+      <start_country_id>GB</start_country_id>
+      <start_zip/>
+      <start_city/>
+      <start_region/>
+      <end_country_id>GB</end_country_id>
+      <end_zip>WS13 8NF</end_zip>
+      <end_city>Lichfield</end_city>
+      <end_region/>
+      <price_basic>650.00</price_basic>
+      <price_additional1>0.00</price_additional1>
+      <price_additional2>0.00</price_additional2>
+      <price_additional3>0.00</price_additional3>
+      <price_additional1_desc/>
+      <price_additional2_desc/>
+      <price_additional3_desc/>
+      <currency_id>GBP</currency_id>
+      <assigned_carrier_id>307548</assigned_carrier_id>
+      <assigned_carrier_name>WS TRANSPORTATION LIMITED</assigned_carrier_name>
+      <assigned_creditor_number>H100184</assigned_creditor_number>
+      <carrier_number/>
+      <weight>0</weight>
+      <weight_unit>kg</weight_unit>
+      <length>0</length>
+      <length_unit>m</length_unit>
+      <volume>0</volume>
+      <volume_unit>cbm</volume_unit>
+      <loading_meter_ldm>0.00</loading_meter_ldm>
+      <route>0</route>
+      <route_unit>km</route_unit>
+      <auction_start_date/>
+      <auction_start_time/>
+      <auction_end_date/>
+      <auction_end_time/>
+      <auction_comment/>
+      <auction_comment_plain_text/>
+      <plant>Grocery</plant>
+      <delivery_group_number>0</delivery_group_number>
+      <tkn_weight>0</tkn_weight>
+      <storage_position_count>0.00</storage_position_count>
+      <pin/>
+      <tsm_light_login_link/>
+      <comment/>
+      <comment_plain_text/>
+      <internal_comment/>
+      <parameters>
+         <parameter editable="no">
+            <qualifier>transportNumber</qualifier>
+            <value>540IWT/FROM501/SH002</value>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>custom.identifiers.tour</qualifier>
+            <value>Grocery</value>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>custom.identifiers.tour.2</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>custom.identifiers.tour.3</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>buyRateGBP</qualifier>
+            <value>650.00</value>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>buyRateTotal</qualifier>
+            <value>723.86</value>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>buyRateTotalGBP</qualifier>
+            <value>723.86</value>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>fuelBasePriceBuyRate</qualifier>
+            <value>73.86</value>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>fuelSurchargeBuyValue</qualifier>
+            <value>73.86</value>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>fuelSurchargeBuyValueGBP</qualifier>
+            <value>73.86</value>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>fuelTransportCostsBuyRate</qualifier>
+            <value>0.00</value>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>numberOfPallets</qualifier>
+            <value>26</value>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>buyRateSurcharge</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>buyRateSurchargeGBP</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>currentFuelPrice</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>ofiHaulierPo</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>secaSurcharge</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>accountManager</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>calendarWeekNumberLatestSurchargeAccepted</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>SupplierNumber</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>firstDeliveryUnloadingDate</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>visibility.ocean.product</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>ocean.scac.no</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>ocean.bl.no</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>ocean.booking.no</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>ocean.container.no</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>pickStart</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>FTAReason</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>previousBookingNumber</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>previousBookingDate</qualifier>
+            <value/>
+            <description/>
+         </parameter>
+         <parameter editable="no">
+            <qualifier>visibility.product</qualifier>
+            <value>RTV</value>
+            <description/>
+         </parameter>
+      </parameters>
+      <required_delivery_parameters>
+         <required_delivery_parameter>
+            <qualifier>collectionPointStreet</qualifier>
+            <editable>assigned</editable>
+            <mandatory>false</mandatory>
+         </required_delivery_parameter>
+         <required_delivery_parameter>
+            <qualifier>collectionPointCity</qualifier>
+            <editable>assigned</editable>
+            <mandatory>false</mandatory>
+         </required_delivery_parameter>
+         <required_delivery_parameter>
+            <qualifier>BookedDateTimeSupplierFrom</qualifier>
+            <editable>assigned</editable>
+            <mandatory>false</mandatory>
+         </required_delivery_parameter>
+         <required_delivery_parameter>
+            <qualifier>collectionPointID</qualifier>
+            <editable>assigned</editable>
+            <mandatory>false</mandatory>
+         </required_delivery_parameter>
+         <required_delivery_parameter>
+            <qualifier>collectionPointAddressAddendum</qualifier>
+            <editable>assigned</editable>
+            <mandatory>false</mandatory>
+         </required_delivery_parameter>
+         <required_delivery_parameter>
+            <qualifier>actualNumberOfPallets</qualifier>
+            <editable>assigned</editable>
+            <mandatory>false</mandatory>
+         </required_delivery_parameter>
+         <required_delivery_parameter>
+            <qualifier>BookedDateTimeSupplierTo</qualifier>
+            <editable>assigned</editable>
+            <mandatory>false</mandatory>
+         </required_delivery_parameter>
+         <required_delivery_parameter>
+            <qualifier>collectionPointZip</qualifier>
+            <editable>assigned</editable>
+            <mandatory>false</mandatory>
+         </required_delivery_parameter>
+         <required_delivery_parameter>
+            <qualifier>collectionPointName</qualifier>
+            <editable>assigned</editable>
+            <mandatory>false</mandatory>
+         </required_delivery_parameter>
+         <required_delivery_parameter>
+            <qualifier>palletsInputSource</qualifier>
+            <editable>assigned</editable>
+            <mandatory>false</mandatory>
+            <enumvalues>
+               <enumvalue>Carrier</enumvalue>
+               <enumvalue>Supplier</enumvalue>
+            </enumvalues>
+         </required_delivery_parameter>
+         <required_delivery_parameter>
+            <qualifier>collectionPointCountry</qualifier>
+            <editable>assigned</editable>
+            <mandatory>false</mandatory>
+         </required_delivery_parameter>
+      </required_delivery_parameters>
+      <shipments>
+         <shipment id="568707262">
+            <index>0</index>
+            <tour_id>903164949</tour_id>
+            <owner>Grocery</owner>
+            <number>540IWT/FROM501/SH002-20251221</number>
+            <customer_name>Lichfield 540</customer_name>
+            <customer_number/>
+            <faktura/>
+            <incoterm_city/>
+            <vehicle_id/>
+            <vehicle_name>Single-decker</vehicle_name>
+            <weight>0</weight>
+            <weight_unit>kg</weight_unit>
+            <length>0</length>
+            <length_unit>m</length_unit>
+            <volume>0</volume>
+            <volume_unit>cbm</volume_unit>
+            <loading_meter_ldm>0.00</loading_meter_ldm>
+            <route>0</route>
+            <route_unit>km</route_unit>
+            <dlclass/>
+            <dlnumber/>
+            <storage_position_count>0.00</storage_position_count>
+            <comment/>
+            <comment_plain_text/>
+            <items/>
+            <station id="125623" type="loading">
+               <shipment_id>540IWT/FROM501/SH002-20251221</shipment_id>
+               <avis/>
+               <company_name>Total Supply Chain CC</company_name>
+               <address/>
+               <zip/>
+               <city/>
+               <region/>
+               <country_id>GB</country_id>
+               <loading_name>5016900</loading_name>
+               <loadingramp/>
+               <from_date>2000-01-01</from_date>
+               <from_time>00:00:00</from_time>
+               <until_date>2000-01-01</until_date>
+               <until_time>00:00:00</until_time>
+               <fixed_date_loading>2000-01-01</fixed_date_loading>
+               <transportunit_name>Pallets</transportunit_name>
+               <transportunit_count>26</transportunit_count>
+               <transportunit_pileable>false</transportunit_pileable>
+               <comment/>
+               <comment_plain_text/>
+            </station>
+            <station id="602555" type="unloading">
+               <shipment_id>540IWT/FROM501/SH002-20251221</shipment_id>
+               <avis/>
+               <company_name>Lichfield 540</company_name>
+               <address>Wood End Lane</address>
+               <zip>WS13 8NF</zip>
+               <city>Lichfield</city>
+               <region/>
+               <country_id>GB</country_id>
+               <loading_name>540</loading_name>
+               <loadingramp>Fradley Park Ind Est</loadingramp>
+               <from_date>2025-12-23</from_date>
+               <from_time>00:00:00</from_time>
+               <until_date>2025-12-23</until_date>
+               <until_time>00:00:00</until_time>
+               <fixed_date_unloading>2025-12-23</fixed_date_unloading>
+               <transportunit_name>Pallets</transportunit_name>
+               <transportunit_count>26</transportunit_count>
+               <transportunit_pileable>false</transportunit_pileable>
+               <comment/>
+               <comment_plain_text/>
+            </station>
+            <parameters>
+               <parameter editable="no">
+                  <qualifier>supplierType</qualifier>
+                  <value>PRIMARY</value>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>purchaseOrderNumber</qualifier>
+                  <value>540IWT/FROM501/SH002</value>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>buyRate</qualifier>
+                  <value>650.00</value>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>buyRateGBP</qualifier>
+                  <value>650.00</value>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>buyRateTotal</qualifier>
+                  <value>723.86</value>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>buyRateTotalGBP</qualifier>
+                  <value>723.86</value>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>fuelSurchargeBuyValue</qualifier>
+                  <value>73.86</value>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>buyRateSurcharge</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>buyRateSurchargeCurrency</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>fuelSurchargeBuyValueGBP</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>SupplierNumber</qualifier>
+                  <value>5016900</value>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>supplierConsolidationId</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>supplierConsolidationName</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>calendarYearFinance</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>calendarWeekNumberFinance</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>uploadType</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>secaSurcharge</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>fresh</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>plannedNumberOfPallets</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="assigned" mandatory="false">
+                  <qualifier>actualNumberOfPallets</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="assigned" mandatory="false">
+                  <qualifier>palletsInputSource</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="assigned" mandatory="false">
+                  <qualifier>collectionPointID</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="assigned" mandatory="false">
+                  <qualifier>collectionPointName</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="assigned" mandatory="false">
+                  <qualifier>collectionPointAddressAddendum</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="assigned" mandatory="false">
+                  <qualifier>collectionPointStreet</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="assigned" mandatory="false">
+                  <qualifier>collectionPointZip</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="assigned" mandatory="false">
+                  <qualifier>collectionPointCity</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="assigned" mandatory="false">
+                  <qualifier>collectionPointCountry</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="assigned" mandatory="false">
+                  <qualifier>BookedDateTimeSupplierFrom</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="assigned" mandatory="false">
+                  <qualifier>BookedDateTimeSupplierTo</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>custom.vh.loading.unlocode</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>custom.vh.unloading.unlocode</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>custom.vh.loadingIsPort</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>custom.vh.unloadingIsPort</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>marsDeliveryNo</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+               <parameter editable="no">
+                  <qualifier>marsPallets</qualifier>
+                  <value/>
+                  <description/>
+               </parameter>
+            </parameters>
+         </shipment>
+      </shipments>
+      <bookings/>
+   </tour>
+</tisys>

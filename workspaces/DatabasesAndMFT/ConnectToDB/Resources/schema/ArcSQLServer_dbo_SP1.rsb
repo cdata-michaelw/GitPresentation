@@ -1,0 +1,13 @@
+<arc:script xmlns:arc="http://arc.cdata.com/ns/arcscript/2">
+  <arc:info title="[ArcSQLServer].[dbo].[SP1]" connection="Connection" restrictUser="*" description="Execute [ArcSQLServer].[dbo].[SP1]">
+  	<!-- Parameter definitions -->
+    <input name="Pm1" type="string" required="true" desc="" />
+    <input name="Pm2" type="in" required="true" desc="" />
+    <output name="*" desc="" />
+  </arc:info>
+
+  <!-- Operation definitions  --> 
+  <arc:script method="POST">
+    <arc:push op="apiExecuteSP" />
+  </arc:script>
+</arc:script>

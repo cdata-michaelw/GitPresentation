@@ -1,0 +1,149 @@
+<Items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<_30-09>
+		<Tender_Sent>YUSEN GROUPAGE</Tender_Sent>
+		<Load_No.></Load_No.>
+		<Picker__1_ xsi:nil="true"></Picker__1_>
+		<Load_ID xsi:nil="true"></Load_ID>
+		<Collection_Date_Time xsi:nil="true"></Collection_Date_Time>
+		<Trailer_No. xsi:nil="true"></Trailer_No.>
+		<Loading_Dock xsi:nil="true"></Loading_Dock>
+		<Bay_No xsi:nil="true"></Bay_No>
+		<Haulier xsi:nil="true"></Haulier>
+		<Additional_Information xsi:nil="true"></Additional_Information>
+		<Customer xsi:nil="true"></Customer>
+		<Street xsi:nil="true"></Street>
+		<Destination xsi:nil="true"></Destination>
+		<Post_Code xsi:nil="true"></Post_Code>
+		<Delivery_Date_Time xsi:nil="true"></Delivery_Date_Time>
+		<Booking_Ref. xsi:nil="true"></Booking_Ref.>
+		<CBM xsi:nil="true"></CBM>
+		<Planned_Pallets xsi:nil="true"></Planned_Pallets>
+		<Unit_Qty xsi:nil="true"></Unit_Qty>
+		<Total_Weight xsi:nil="true"></Total_Weight>
+		<Vehicle_Type xsi:nil="true"></Vehicle_Type>
+		<Vehicle_In_Time_At_WH xsi:nil="true"></Vehicle_In_Time_At_WH>
+		<Vehicle_Out_Time_At_WH xsi:nil="true"></Vehicle_Out_Time_At_WH>
+		<Vehicle_In_Time_At_Customer xsi:nil="true"></Vehicle_In_Time_At_Customer>
+		<Vehicle_Out_Time_At_Customer xsi:nil="true"></Vehicle_Out_Time_At_Customer>
+		<field_25 xsi:nil="true"></field_25>
+		<field_26 xsi:nil="true"></field_26>
+		<field_27 xsi:nil="true"></field_27>
+		<field_28 xsi:nil="true"></field_28>
+		<field_29 xsi:nil="true"></field_29>
+		<field_30 xsi:nil="true"></field_30>
+		<field_31 xsi:nil="true"></field_31>
+		<field_32 xsi:nil="true"></field_32>
+		<field_33 xsi:nil="true"></field_33>
+		<field_34 xsi:nil="true"></field_34>
+		<field_35 xsi:nil="true"></field_35>
+		<field_36 xsi:nil="true"></field_36>
+		<field_37 xsi:nil="true"></field_37>
+		<field_38 xsi:nil="true"></field_38>
+		<field_39 xsi:nil="true"></field_39>
+		<field_40 xsi:nil="true"></field_40>
+		<field_41 xsi:nil="true"></field_41>
+		<field_42 xsi:nil="true"></field_42>
+		<field_43 xsi:nil="true"></field_43>
+		<field_44 xsi:nil="true"></field_44>
+		<field_45 xsi:nil="true"></field_45>
+		<field_46 xsi:nil="true"></field_46>
+	</_30-09>
+	<_30-09>
+		<Tender_Sent xsi:nil="true"></Tender_Sent>
+		<Load_No. xsi:nil="true"></Load_No.>
+		<Picker__1_ xsi:nil="true"></Picker__1_>
+		<Load_ID xsi:nil="true"></Load_ID>
+		<Collection_Date_Time xsi:nil="true"></Collection_Date_Time>
+		<Trailer_No. xsi:nil="true"></Trailer_No.>
+		<Loading_Dock xsi:nil="true"></Loading_Dock>
+		<Bay_No xsi:nil="true"></Bay_No>
+		<Haulier xsi:nil="true"></Haulier>
+		<Additional_Information xsi:nil="true"></Additional_Information>
+		<Customer xsi:nil="true"></Customer>
+		<Street xsi:nil="true"></Street>
+		<Destination xsi:nil="true"></Destination>
+		<Post_Code xsi:nil="true"></Post_Code>
+		<Delivery_Date_Time xsi:nil="true"></Delivery_Date_Time>
+		<Booking_Ref. xsi:nil="true"></Booking_Ref.>
+		<CBM xsi:nil="true"></CBM>
+		<Planned_Pallets xsi:nil="true"></Planned_Pallets>
+		<Unit_Qty xsi:nil="true"></Unit_Qty>
+		<Total_Weight xsi:nil="true"></Total_Weight>
+		<Vehicle_Type xsi:nil="true"></Vehicle_Type>
+		<Vehicle_In_Time_At_WH xsi:nil="true"></Vehicle_In_Time_At_WH>
+		<Vehicle_Out_Time_At_WH xsi:nil="true"></Vehicle_Out_Time_At_WH>
+		<Vehicle_In_Time_At_Customer xsi:nil="true"></Vehicle_In_Time_At_Customer>
+		<Vehicle_Out_Time_At_Customer xsi:nil="true"></Vehicle_Out_Time_At_Customer>
+		<field_25 xsi:nil="true"></field_25>
+		<field_26 xsi:nil="true"></field_26>
+		<field_27 xsi:nil="true"></field_27>
+		<field_28 xsi:nil="true"></field_28>
+		<field_29 xsi:nil="true"></field_29>
+		<field_30 xsi:nil="true"></field_30>
+		<field_31 xsi:nil="true"></field_31>
+		<field_32 xsi:nil="true"></field_32>
+		<field_33 xsi:nil="true"></field_33>
+		<field_34 xsi:nil="true"></field_34>
+		<field_35 xsi:nil="true"></field_35>
+		<field_36 xsi:nil="true"></field_36>
+		<field_37 xsi:nil="true"></field_37>
+		<field_38 xsi:nil="true"></field_38>
+		<field_39 xsi:nil="true"></field_39>
+		<field_40 xsi:nil="true"></field_40>
+		<field_41 xsi:nil="true"></field_41>
+		<field_42 xsi:nil="true"></field_42>
+		<field_43 xsi:nil="true"></field_43>
+		<field_44 xsi:nil="true"></field_44>
+		<field_45 xsi:nil="true"></field_45>
+		<field_46 xsi:nil="true"></field_46>
+	</_30-09>
+	<_30-09>
+		<Tender_Sent>YES</Tender_Sent>
+		<Load_No. xsi:nil="true"></Load_No.>
+		<Picker__1_>BEN</Picker__1_>
+		<Load_ID>14146858</Load_ID>
+		<Collection_Date_Time>29/09/2025 18:00</Collection_Date_Time>
+		<Trailer_No.>45/4409</Trailer_No.>
+		<Loading_Dock>7</Loading_Dock>
+		<Bay_No>BAY 8RW</Bay_No>
+		<Haulier>YUSEN</Haulier>
+		<Additional_Information>TRAILER 1</Additional_Information>
+		<Customer>Built in Kitchen Appliances</Customer>
+		<Street>33-35 BELMONT ROAD</Street>
+		<Destination>ANFIELD</Destination>
+		<Post_Code>L6 5BG</Post_Code>
+		<Delivery_Date_Time>30/09/2025 10:05</Delivery_Date_Time>
+		<Booking_Ref.>DISPLAY 15092025</Booking_Ref.>
+		<CBM>3.606</CBM>
+		<Planned_Pallets>3</Planned_Pallets>
+		<Unit_Qty>4</Unit_Qty>
+		<Total_Weight>372</Total_Weight>
+		<Vehicle_Type>LTL</Vehicle_Type>
+		<Vehicle_In_Time_At_WH>09:45</Vehicle_In_Time_At_WH>
+		<Vehicle_Out_Time_At_WH>10:35</Vehicle_Out_Time_At_WH>
+		<Vehicle_In_Time_At_Customer xsi:nil="true"></Vehicle_In_Time_At_Customer>
+		<Vehicle_Out_Time_At_Customer xsi:nil="true"></Vehicle_Out_Time_At_Customer>
+		<field_25 xsi:nil="true"></field_25>
+		<field_26 xsi:nil="true"></field_26>
+		<field_27 xsi:nil="true"></field_27>
+		<field_28 xsi:nil="true"></field_28>
+		<field_29 xsi:nil="true"></field_29>
+		<field_30 xsi:nil="true"></field_30>
+		<field_31 xsi:nil="true"></field_31>
+		<field_32 xsi:nil="true"></field_32>
+		<field_33 xsi:nil="true"></field_33>
+		<field_34 xsi:nil="true"></field_34>
+		<field_35 xsi:nil="true"></field_35>
+		<field_36 xsi:nil="true"></field_36>
+		<field_37 xsi:nil="true"></field_37>
+		<field_38 xsi:nil="true"></field_38>
+		<field_39 xsi:nil="true"></field_39>
+		<field_40 xsi:nil="true"></field_40>
+		<field_41 xsi:nil="true"></field_41>
+		<field_42 xsi:nil="true"></field_42>
+		<field_43 xsi:nil="true"></field_43>
+		<field_44 xsi:nil="true"></field_44>
+		<field_45 xsi:nil="true"></field_45>
+		<field_46 xsi:nil="true"></field_46>
+	</_30-09>
+</Items>

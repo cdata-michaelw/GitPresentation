@@ -1,0 +1,8 @@
+<Items>
+    <LeadTimes table="`LeadTimes`" action="upsert">
+        <ProductCode1 key="true" />
+        <LeadTime type="integer" />
+        <ProductCode2 />
+        <ProductName />
+    </LeadTimes>
+</Items>

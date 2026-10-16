@@ -1,0 +1,80 @@
+<!-- NOTE: Do not edit rsb:info -->
+<rsb:info title="Translate Script" desc="Translate EDI file.">
+  <input name="PortId"        desc="The id of the port that is translating file." />
+  <input name="MessageId"     desc="The id of the translation." />
+  <input name="FilePath"      desc="The path of the data file." />
+</rsb:info>
+
+<!-- Read Excel -->
+<rsb:set attr="xml.file" value="[FilePath]" />
+<rsb:set attr="xml.sheet" value="Sheet1" />
+<rsb:set attr="xml.version" value="2007" />
+<rsb:set attr="xml.count" value="2147483647" />
+<rsb:set item="test" />
+
+<rsb:set attr="test.index#" value="—" />
+<rsb:set attr="test.index#" value="-" />
+<rsb:set attr="test.index#" value="|" />
+
+<rsb:set attr="file.data" value="" />
+<rsb:set attr="test.end" value="" />
+
+<rsb:set attr="test.preText" value="" />
+<rsb:set attr="test.preIndex" value="" />
+<rsb:set attr="test.preLevel" value="1" />
+
+<rsb:set attr="test.level" value="1" />
+
+
+<rsb:call op="excelGet" in="xml" out="out1">
+  <rsb:notequals attr="_index" value="1">
+    <rsb:enum range="a..z">
+    <rsb:set attr="origin.data" value="[out1.[_value] | def]" />
+      <rsb:if exp="[test.index | arrayfind([origin.data])] > 0">
+        <rsb:set attr="test.preIndex" value="0" />
+        <rsb:set attr="test.preText" value="" />
+        <rsb:equals attr="origin.data" value="|">
+          <rsb:set attr="test.level" value="[test.level | add]" />
+        </rsb:equals>
+        <rsb:else>
+          <rsb:equals attr="test.preIndex" value="1">
+            <rsb:set attr="file.data" value="[file.data | trim][origin.data | def | trim | xmlencode]"/>
+          </rsb:equals>
+          <rsb:equals attr="test.preIndex" value="0">
+            <rsb:check value="[test.item#[test.level] | def]">
+              <rsb:set attr="tmp.lowLevel" value="[test.preLevel | isgreater([test.level], [test.level], [test.preLevel])]" />
+              <rsb:set attr="tmp.highLevel" value="[test.preLevel | isgreater([test.level], [test.preLevel], [test.level])]" />
+              <rsb:enum range="[tmp.highLevel]..[tmp.lowLevel]">
+                <rsb:check value="[test.item#[_value] | def]">
+                  <rsb:set attr="file.data">
+                    [file.data | trim]</[test.item#[_value] | split('\[',1) | split('(',1)]>
+                  </rsb:set>
+                  <rsb:set attr="test.item#[_value]" value="" />
+                </rsb:check>
+              </rsb:enum>
+            </rsb:check>
+            <rsb:set attr="test.item#[test.level]" value="[origin.data]" />
+            <rsb:set attr="file.data">[file.data | trim]
+              <[origin.data | split('\[',1) | split('(',1)][origin.data | split('\[',2) | trim | empty(""," type=\"[origin.data | split('\[',2) | split('\]',1) | xmlencode]\"")]>
+              </rsb:set>
+              <rsb:set attr="test.preLevel" value="[test.level]" />
+              <rsb:set attr="test.level" value="1" />
+            </rsb:equals>
+            <rsb:set attr="test.preIndex" value="[test.preIndex | add]" />
+            <rsb:set attr="test.preText" value="[origin.data]" />
+          </rsb:else>
+        </rsb:if>
+      </rsb:enum>
+    </rsb:notequals>
+  </rsb:call>
+
+    <rsb:enum attr="test.item">
+      <rsb:check value="[_value | def]">
+        <rsb:set attr="test.end"></[_value | split('\[',1) | split('(',1)]>
+        [test.end]
+      </rsb:set>
+    </rsb:check>
+  </rsb:enum>
+  <rsb:set attr="file.data" value="[file.data | trim][test.end]" />
+
+[file.data]

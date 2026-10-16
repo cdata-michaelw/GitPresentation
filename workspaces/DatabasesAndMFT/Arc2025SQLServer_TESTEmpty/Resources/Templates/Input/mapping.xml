@@ -1,0 +1,7 @@
+<Items>
+    <TESTBigInt table="`dbo`.`TESTBigInt`" action="INSERT">
+        <ID type="bigint" key="true" ref="@@LAST_INSERT_ID" />
+        <Child1 type="char" />
+        <Child2 type="char" />
+    </TESTBigInt>
+</Items>

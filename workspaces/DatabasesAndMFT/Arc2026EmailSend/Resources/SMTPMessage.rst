@@ -1,0 +1,1 @@
+<p>This email is notifying that the workflow has been completed</p>

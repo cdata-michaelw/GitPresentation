@@ -1,0 +1,1 @@
+{"left":{"header": "OrderType","id":"messageheader", "ignore_missing_value": "false"},"rules":[{"condition":{"ref":"messageheader", "formatters": [{ "name": "equals", "arguments": ["SERV"]}]},"value":"is%20equal%20to&%20%5BSERV%5D&1"}],"else":"Fallback to"}

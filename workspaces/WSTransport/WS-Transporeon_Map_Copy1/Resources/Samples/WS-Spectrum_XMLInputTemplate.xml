@@ -1,0 +1,31 @@
+<Items xmlns:flatfile="http://arc.cdata.com/ns/flatfileconnector">
+	<WST_Shipment>
+		<field_0>1000180926</field_0>
+		<field_1>0000606168</field_1>
+		<field_2>0056311365</field_2>
+		<field_3>EPE INTERNATIONAL LTD</field_3>
+		<field_4>BELFRY HOUSE</field_4>
+		<field_5>EUROWAY TRADING ESTATE</field_5>
+		<field_6></field_6>
+		<field_7>271936</field_7>
+		<field_8>06.08.2025</field_8>
+		<field_9>13:25:59</field_9>
+		<field_10>07.08.2025</field_10>
+		<field_11>10:35:01</field_11>
+		<field_12>APP</field_12>
+		<field_13>0000542107</field_13>
+		<field_14>26</field_14>
+		<field_15>WR67037</field_15>
+		<field_16>BD4 6TA</field_16>
+		<field_17>BRADFORD</field_17>
+		<field_18>44 Wharfedale Road</field_18>
+		<field_19></field_19>
+		<field_20></field_20>
+		<field_21></field_21>
+		<field_22>GB</field_22>
+		<field_23></field_23>
+		<field_24>0000542107</field_24>
+		<field_25>13.08.2025</field_25>
+		<field_26>10:00:00</field_26>
+	</WST_Shipment>
+</Items>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Interchange Delimiters="Delimiters1" xmlns="http://www.rssbus.com"> xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  <Meta>
+    <ISA01>xx</ISA01>
+    <ISA02>xxxxxxxxxx</ISA02>
+    <ISA03>xx</ISA03>
+    <ISA04>xxxxxxxxxx</ISA04>
+    <ISA05>xx</ISA05>
+    <ISA06>xxxxxxxxxxxxxxx</ISA06>
+    <ISA07>xx</ISA07>
+    <ISA08>xxxxxxxxxxxxxxx</ISA08>
+    <ISA09>xxxxxx</ISA09>
+    <ISA10>xxxx</ISA10>
+    <ISA11>x</ISA11>
+    <ISA12>00401</ISA12>
+    <ISA13>xxxxxxxxx</ISA13>
+    <ISA14>x</ISA14>
+    <ISA15>x</ISA15>
+    <ISA16>x</ISA16>
+  </Meta>
+  <FunctionalGroup>
+    <Meta>
+      <GS01>xx</GS01>
+      <GS02>xxXXXXXXXXXXXXX</GS02>
+      <GS03>xxXXXXXXXXXXXXX</GS03>
+      <GS04>xxxxxxxx</GS04>
+      <GS05>xxxxXXXX</GS05>
+      <GS06>xXXXXXXXX</GS06>
+      <GS07>xX</GS07>
+      <GS08>004010</GS08>
+    </Meta>
+    <TransactionSet>
+      <TX-00401-997 type="TransactionSet">
+        <Meta>
+          <ST01>997</ST01>
+          <ST02>0001</ST02>
+          <ST03>xXXXXXXXX</ST03>
+        </Meta>
+        <AK1 type="Segment">
+          <AK101/>
+          <AK102>xXXXXXXXX</AK102>
+        </AK1>
+        <AK2Loop1 type="Loop">
+          <AK2 type="Segment">
+            <AK201/>
+            <AK202>xxxxXXXXX</AK202>
+          </AK2>
+          <AK3Loop1 type="Loop">
+            <AK3 type="Segment">
+              <AK301>xxX</AK301>
+              <AK302>xXXXXX</AK302>
+              <AK303>xXXXXX</AK303>
+              <AK304/>
+            </AK3>
+            <AK4 type="Segment">
+              <AK401 type="Composite">
+                <AK40101>XX</AK40101>
+                <AK40102>xX</AK40102>
+              </AK401>
+              <AK402>xXXX</AK402>
+              <AK403/>
+              <AK404>xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</AK404>
+            </AK4>
+          </AK3Loop1>
+          <AK5 type="Segment">
+            <AK501/>
+            <AK502/>
+            <AK503/>
+            <AK504/>
+            <AK505/>
+            <AK506/>
+          </AK5>
+        </AK2Loop1>
+        <AK9 type="Segment">
+          <AK901/>
+          <AK902>xXXXXX</AK902>
+          <AK903>xXXXXX</AK903>
+          <AK904>xXXXXX</AK904>
+          <AK905/>
+          <AK906/>
+          <AK907/>
+          <AK908/>
+          <AK909/>
+        </AK9>
+      </TX-00401-997>
+    </TransactionSet>
+  </FunctionalGroup>
+</Interchange>
