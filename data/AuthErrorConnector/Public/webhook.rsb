@@ -1,0 +1,35 @@
+<arc:script xmlns:arc="http://arc.cdata.com/ns/arcscript/2">
+  <arc:restrict user="admin" role="cdata_admin,cdata_api"/>
+  <arc:info title="Webhook" compileOptions="PreventCSRF=false;X-Frame-Options=Any" desc="Webhook endpoint succesfully invoked.">
+    <input name="*"/>
+  </arc:info>
+  <arc:equals attr="_request.server:REQUEST_METHOD" value="GET" case="ignore">
+    <arc:set attr="_context.settings:outputformat" value="null"/>
+    <arc:set attr="_context.settings:outputformatoptions" value="prevent_error_details"/>
+    <arc:set attr="_response.header:Content-Type" value="text/html; charset=utf8"/>
+    <arc:set attr="_response.write">
+      <html>
+        <head>
+          <title>[ProdName()] 20[Version() | split('.', 1)]</title>
+          <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        </head>
+        <body>
+          <div style="border:solid 1px lightgray;margin:auto;width:70%;padding:20px;margin-top:40px;background:#F5F5F5;line-height:25px;text-align:center;font-family:'Segoe UI',Arial,Verdana,Tahoma;font-size:13px;border-radius:3px;color:#4d4d4d;">
+            You have reached the Webhook endpoint for <strong>[_meta.arc:connectorid]</strong>. This endpoint can accept POST/PUT calls, and the received data is written as an output file.
+          </div>
+        </body>
+      </html>
+    </arc:set>
+    <arc:else>
+      <arc:try>
+        <rsb:set attr="in.connectorId" value="[_meta.arc:connectorid]"/>
+        <arc:catch code="*">
+          <arc:set attr="_response.statuscode" value="500" />
+          <arc:set attr="_response.statusdescription" value="Internal Server Error" />
+          <arc:throw code="[_code]" desc="[_description]" />
+        </arc:catch>
+        <arc:call op="webhookReceive" in="in"/>
+      </arc:try>
+    </arc:else>
+  </arc:equals>
+</arc:script>

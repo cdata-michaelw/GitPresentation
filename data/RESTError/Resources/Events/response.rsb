@@ -1,0 +1,3 @@
+<arc:if exp="![_input.StatusCode | equals(200)]">
+  <arc:set attr="_message.header:MessageConnectorID" value="RESTError"/>
+</arc:if>
